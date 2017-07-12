@@ -1,6 +1,9 @@
 {
   "name": "stylecooker-test2",
   "version": "0.1.0",
+  "engines": {
+    "node": "6.2.2"
+  },
   "private": true,
   "scripts": {
     "start": "node ./bin/www"
