@@ -7,5 +7,5 @@ deploy:
   provider: heroku
   buildpack: nodejs 
   api_key:
-    secure: "c965cdb1-d0de-4b50-b16e-9e78b6ac6c39"
+    secure: "b2816c98-72f2-44c0-9c1d-eb6114c91628"
 after_deploy: "echo 'done!'"
