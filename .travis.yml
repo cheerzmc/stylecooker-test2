@@ -2,3 +2,8 @@ language: node_js
 node_js:
   - "6.2.2"
 script: node -v
+deploy:
+  provider: heroku
+  api_key:
+    secure: "b2816c98-72f2-44c0-9c1d-eb6114c91628"
+
