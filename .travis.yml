@@ -2,10 +2,3 @@ language: node_js
 node_js:
   - "6.2.2"
 script: node -v
-before_deploy: "echo 'ready?'"
-deploy:
-  provider: heroku
-  buildpack: nodejs 
-  api_key:
-    secure: "b2816c98-72f2-44c0-9c1d-eb6114c91628"
-after_deploy: "echo 'done!'"
